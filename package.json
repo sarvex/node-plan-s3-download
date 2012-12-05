@@ -1,0 +1,22 @@
+{
+  "name": "plan-s3-download",
+  "version": "0.0.1",
+  "description": "plan plugin to download a file from s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superjoe30/node-plan-s3-download"
+  },
+  "author": "Andrew Kelley",
+  "license": "BSD",
+  "dependencies": {
+    "s3": "0.0.4"
+  },
+  "devDependencies": {
+    "plan": "0.0.1",
+    "mocha": "~1.7.3"
+  }
+}
