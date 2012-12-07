@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "plan": "0.0.1",
-    "mocha": "~1.7.3"
+    "mocha": "~1.7.3",
+    "temp": "~0.4.0"
   }
 }

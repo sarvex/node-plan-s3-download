@@ -20,3 +20,7 @@ See also [node-plan-s3-upload](https://github.com/superjoe30/node-plan-s3-upload
 ### exports
 
   * `bucket` - copied directly from options
+
+## Testing
+
+`S3_KEY=<valid_s3_key> S3_SECRET=<valid_s3_secret> S3_BUCKET=<valid_s3_bucket> npm test`
