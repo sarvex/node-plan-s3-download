@@ -5,6 +5,7 @@ module.exports = {
   start: function(done) {
     var self = this;
     var opts = {
+      secure: !!self.options.secure,
       key: self.options.s3Key,
       secret: self.options.s3Secret,
       bucket: self.options.s3Bucket,
