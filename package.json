@@ -1,6 +1,6 @@
 {
   "name": "plan-s3-download",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plan plugin to download a file from s3",
   "main": "index.js",
   "scripts": {
