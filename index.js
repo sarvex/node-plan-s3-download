@@ -4,11 +4,18 @@ var path = require('path')
 module.exports = {
   start: function(done) {
     var self = this;
-    var client = s3.createClient({
+    var opts = {
       key: self.options.s3Key,
       secret: self.options.s3Secret,
       bucket: self.options.s3Bucket,
-    });
+    };
+    var client, err;
+    try {
+      client = s3.createClient(opts);
+    } catch (err) {
+      done(err);
+      return;
+    }
     self.exports.bucket = self.options.s3Bucket;
     self.emit('update');
 
