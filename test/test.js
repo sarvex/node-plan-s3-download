@@ -8,6 +8,7 @@ var definition = require('../')
 
 var tmpFilePath = path.join(__dirname, "tmp.foo");
 var remoteUrl = "/node-plan-s3-upload/test.foo";
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 describe("s3-download", function() {
   beforeEach(function(done) {
